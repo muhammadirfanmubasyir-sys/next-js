@@ -1,6 +1,6 @@
 
  
-export default async function Users() {
+export default async function UsersPage() {
   
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
   const users = await res.json();
