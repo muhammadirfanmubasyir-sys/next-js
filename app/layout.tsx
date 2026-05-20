@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Link from "next/link";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -40,8 +41,9 @@ export default function RootLayout({
               <Link href="/users">Users</Link>   |{" "}
               <Link href="/users/friends">Friends</Link>
           </div>
-        
-          {children}
+            
+                {children}
+             
       </body>
     </html>
   );

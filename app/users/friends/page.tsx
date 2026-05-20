@@ -19,7 +19,7 @@ async function makePostRequest() {
     return { data };
 }
 
-export default async function FriendsPage() {
+export default function FriendsPage() {
     const [message, setMessage] = useState("");
  
     const handleButtonClick = async () => {
